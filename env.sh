@@ -1,3 +1,3 @@
 #!/bin/bash
-i=$1
-echo "hello this is $i environment" >> file1
+env=$1
+echo "hello this is ${env} environment" >> file1
